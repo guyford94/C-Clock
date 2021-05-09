@@ -5,7 +5,7 @@
 int main() {
 
 	int h, m, s, d = 1000;
-	printf("Set time: \n");
+	printf("Set strting time: (h,m,s) \n");
 	scanf_s("%d%d%d", &h, &m, &s);
 	if (h > 12 || m > 60 || s > 60) {
 		printf("ERROR ! \n");
